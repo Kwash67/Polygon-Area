@@ -55,6 +55,8 @@ class Square(Rectangle):
         a = f"{type(self).__name__}(side={self.width})"
         return a
 
+# Test Cases.
+
 rect = Rectangle(10, 5)
 print(rect.get_area())
 rect.set_height(3)
